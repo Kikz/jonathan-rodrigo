@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Jonathan Rodrigo · Photographer / Director</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="./css/main.css">
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+
+        <header>
+            <a href="#" class="logoType">Jonathan Rodrigo</a>
+            <a href="about.html" class="aboutLink">about / cv</a>
+        </header>
+
+        <div class="artworkLeftContainer">
+            <canvas id="artworkCanvas"></canvas>
+            <!-- <div class="artworkBackgroundImage horizontal"></div> -->
+            <img src="./imgs/artwork01.png" class="artworkImage horizontal" alt="">
+            <a class="link" href="artwork-prints.html">artwork / prints</a>
+        </div>
+
+        <div class="commercialRightContainer">
+            <canvas id="commercialCanvas"></canvas>
+            <!-- <div class="commercialBackgroundImage vertical"></div> -->
+            <img src="./imgs/commercial01.png" class="commercialImage vertical" alt="">
+            <a class="link" href="#">commercial / portfolio</a>
+        </div>
+        
+        <!-- <script src="./js//drawArtwork.js" async defer></script> -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenMax.min.js"></script>
+        <script src="./js/slideOnMoveArtwork.js" async defer></script>
+        <script src="./js/slideOnMoveCommercial.js" async defer></script>
+    </body>
+</html>

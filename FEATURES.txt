@@ -1,0 +1,23 @@
+//To Dos
+////////
+
+- After first 50px remake canvas
+- Design Phone Home
+- Design Commercial
+- Artwork: Make next(+number) follow the cursor
+- Artwork: On hover image make white overlay
+
+
+//Bugs
+//////
+
+
+
+//Github Commits
+////////////////
+
+- Animate commercial
+
+
+//Future Features
+/////////////////
